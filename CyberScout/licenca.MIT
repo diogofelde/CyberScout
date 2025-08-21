@@ -1,0 +1,10 @@
+
+---
+
+## 📦 Dependências (requirements.txt)
+
+```txt
+streamlit
+requests
+beautifulsoup4
+tldextract

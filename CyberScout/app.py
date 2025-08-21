@@ -1,3 +1,7 @@
+pip install beautifulsoup4
+
+python -c "from bs4 import BeautifulSoup; print('BeautifulSoup está funcionando!')"
+
 import streamlit as st
 import requests
 from bs4 import BeautifulSoup
@@ -31,3 +35,4 @@ if url:
     resultado = verificar_url(url)
     st.write("🔎 Resultado da análise:")
     st.json(resultado)
+

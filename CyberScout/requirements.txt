@@ -4,3 +4,5 @@
 tk
 requests
 Pillow
+beautifulsoup4
+
